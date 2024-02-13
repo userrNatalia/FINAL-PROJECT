@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+        <form action="connect.php" method="post">
+            <h2>Registration Form</h2>
+            <div class="content">
+                <label for="FirstName">First Name:</label>
+                <input type="text" name="firstName" id="firstName" required>
+            </div>
+            <div class="content">
+                <label for="SecondName">Second Name:</label>
+                <input type="text" name="secondName" id="secondName" required>
+            </div>
+            <div class="content">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <div class="content">
+                <label for="password">Password:</label>
+                <input type="password" class="form-control" name="password" id="password" required>
+            </div>
+        
+            <div class="buton-container">
+                <button>Register</button>
+            </div>
+            <div class="register-link">
+                <p>Already have an account?<a href="signup.html">Sign In</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
