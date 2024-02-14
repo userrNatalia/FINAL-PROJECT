@@ -1,40 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="signup.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
+
 <body>
     <div class="container">
         <form action="connect.php" method="post">
             <h2>Registration Form</h2>
             <div class="content">
-                <label for="FirstName">First Name:</label>
-                <input type="text" name="firstName" id="firstName" required>
+                <input type="text" name="firstName" id="firstName" required placeholder="First Name">
+                <i class="fa fa-user"></i>
             </div>
             <div class="content">
-                <label for="SecondName">Second Name:</label>
-                <input type="text" name="secondName" id="secondName" required>
+                <input type="email" name="email" id="email" required placeholder="email address">
+                <i class="fa fa-envelope"></i>
             </div>
             <div class="content">
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="email" required>
+                <input type="password" class="form-control" name="password" id="password" required
+                    placeholder="Password"><i class="fa fa-lock"></i>
             </div>
-
             <div class="content">
-                <label for="password">Password:</label>
-                <input type="password" class="form-control" name="password" id="password" required>
+                <input type="password" class="form-control" name="password" id="password" required
+                    placeholder="Confirm Password"><i class="fa fa-lock"></i>
             </div>
-        
-            <div class="buton-container">
-                <button>Register</button>
-            </div>
+            <button type="submit" class="btn">Register</button>
             <div class="register-link">
-                <p>Already have an account?<a href="signup.html">Sign In</a></p>
+                <p>Already have an account?<a href="login.html">Sign In</a></p>
             </div>
         </form>
     </div>
 </body>
+
 </html>
