@@ -6,3 +6,4 @@
 2. Enhanced login visibility
 3. changed the fonts to look better
 4. Modified THE WHOLE signup page
+5. Changed all PHP  files
